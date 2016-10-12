@@ -1824,7 +1824,7 @@ namespace google\spanner\v1 {
      * @param google\spanner\v1\DeleteSessionRequest $input
      */
     public function DeleteSession(\google\spanner\v1\DeleteSessionRequest $argument, $metadata = array(), $options = array()) {
-      return $this->_simpleRequest('/google.spanner.v1.Spanner/DeleteSession', $argument, '\google\protobuf\Empty::deserialize', $metadata, $options);
+      return $this->_simpleRequest('/google.spanner.v1.Spanner/DeleteSession', $argument, '\google\protobuf\EmptyC::deserialize', $metadata, $options);
     }
     /**
      * @param google\spanner\v1\ExecuteSqlRequest $input
@@ -1866,7 +1866,7 @@ namespace google\spanner\v1 {
      * @param google\spanner\v1\RollbackRequest $input
      */
     public function Rollback(\google\spanner\v1\RollbackRequest $argument, $metadata = array(), $options = array()) {
-      return $this->_simpleRequest('/google.spanner.v1.Spanner/Rollback', $argument, '\google\protobuf\Empty::deserialize', $metadata, $options);
+      return $this->_simpleRequest('/google.spanner.v1.Spanner/Rollback', $argument, '\google\protobuf\EmptyC::deserialize', $metadata, $options);
     }
   }
 }

@@ -1207,7 +1207,7 @@ namespace google\spanner\admin\database\v1 {
      * @param google\spanner\admin\database\v1\DropDatabaseRequest $input
      */
     public function DropDatabase(\google\spanner\admin\database\v1\DropDatabaseRequest $argument, $metadata = array(), $options = array()) {
-      return $this->_simpleRequest('/google.spanner.admin.database.v1.DatabaseAdmin/DropDatabase', $argument, '\google\protobuf\Empty::deserialize', $metadata, $options);
+      return $this->_simpleRequest('/google.spanner.admin.database.v1.DatabaseAdmin/DropDatabase', $argument, '\google\protobuf\EmptyC::deserialize', $metadata, $options);
     }
     /**
      * @param google\spanner\admin\database\v1\GetDatabaseDDLRequest $input

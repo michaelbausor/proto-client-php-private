@@ -1918,7 +1918,7 @@ namespace google\spanner\admin\instance\v1 {
      * @param google\spanner\admin\instance\v1\DeleteInstanceRequest $input
      */
     public function DeleteInstance(\google\spanner\admin\instance\v1\DeleteInstanceRequest $argument, $metadata = array(), $options = array()) {
-      return $this->_simpleRequest('/google.spanner.admin.instance.v1.InstanceAdmin/DeleteInstance', $argument, '\google\protobuf\Empty::deserialize', $metadata, $options);
+      return $this->_simpleRequest('/google.spanner.admin.instance.v1.InstanceAdmin/DeleteInstance', $argument, '\google\protobuf\EmptyC::deserialize', $metadata, $options);
     }
     /**
      * @param google\iam\v1\SetIamPolicyRequest $input
